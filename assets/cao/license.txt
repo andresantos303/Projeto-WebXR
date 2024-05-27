@@ -1,0 +1,11 @@
+Model Information:
+* title:	Frida rescatista
+* source:	https://sketchfab.com/3d-models/frida-rescatista-2dab7a2ecd454c3d86e7afb2054687d8
+* author:	Alx cm (https://sketchfab.com/tacotown5)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Frida rescatista" (https://sketchfab.com/3d-models/frida-rescatista-2dab7a2ecd454c3d86e7afb2054687d8) by Alx cm (https://sketchfab.com/tacotown5) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

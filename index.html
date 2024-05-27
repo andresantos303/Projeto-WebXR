@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Parque de jogos</title>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+
+        <a-assets>
+            <a-asset-item id="court" src="assets/campo/scene.gltf"></a-asset-item>
+            <a-asset-item id="npc" src="assets/npc/scene.gltf"></a-asset-item>
+            <a-asset-item id="heli" src="assets/heli/scene.gltf"></a-asset-item>
+            <a-asset-item id="skatepark" src="assets/skate park/scene.gltf"></a-asset-item>
+            <a-asset-item id="futebol" src="assets/futebol/scene.gltf"></a-asset-item>
+            <a-asset-item id="skateman" src="assets/skate man/scene.gltf"></a-asset-item>
+            <a-asset-item id="carro" src="assets/carro/scene.gltf"></a-asset-item>
+            <a-asset-item id="policia" src="assets/Carro policia/scene.gltf"></a-asset-item>
+            <a-asset-item id="ciclista" src="assets/ciclista/scene.gltf"></a-asset-item>
+            <a-asset-item id="aviao" src="assets/aviao/scene.gltf"></a-asset-item>
+            <a-asset-item id="cao" src="assets/cao/scene.gltf"></a-asset-item>
+            <a-asset-item id="cao2" src="assets/cao2/scene.gltf"></a-asset-item>
+            <a-asset-item id="multidao" src="assets/multidao/scene.gltf"></a-asset-item>
+            <a-asset-item id="carro3" src="assets/carro3/scene.gltf"></a-asset-item>
+        </a-assets>
+
+        <!-- Estrutura -->
+        <a-entity gltf-model="#court" position="-120 -45 -145" scale="6 6 6" rotation="0 90 0"></a-entity>
+        <a-entity gltf-model="#court" position="-95 -45 -145" scale="6 6 6" rotation="0 90 0"></a-entity>
+        <a-entity gltf-model="#court" position="-75 -45 -145" scale="6 6 6" rotation="0 90 0"></a-entity>
+        <a-entity gltf-model="#skatepark" position="-163 -45 -95" scale="18 14 14"></a-entity>
+        <a-entity gltf-model="#futebol" position="-95 -41 -55" scale="1 1 1"></a-entity>
+
+        <!-- NPCS -->
+        <a-entity gltf-model="npc" scale="3.5 3.5 3.5"></a-entity>
+        <a-entity gltf-model="#npc" scale="2 2 2" position="-80 -44 -150"></a-entity>
+        <a-entity gltf-model="#cao" scale="0.4 0.4 0.4" rotation="0 180 0" position="-80 -44 -146"></a-entity>
+        <a-entity gltf-model="#cao2" scale="0.4 0.4 0.4" rotation="0 150 0" position="-80 -44 -24"></a-entity>
+        <a-entity gltf-model="#multidao" position="-110 -44 -60" rotation="0 120 0" scale="0.9 0.9 0.9"></a-entity>
+
+        <!-- Animações -->
+
+        <a-entity gltf-model="#skateman" position="-155 -44 -100" scale="1 1 1"
+            animation="property: position; to: -159 -44 -100; loop: true; dur: 5000; easing: linear;"></a-entity>
+
+        <a-entity gltf-model="#carro" position="-132 -44 -5" scale="0.01 0.01 0.01"
+            animation="property: position; to: -132 -44 -110; dur: 20000; easing: linear;"></a-entity>
+
+        <a-entity gltf-model="#carro3" scale="0.5 0.5 0.5" position="-56 -43 -110"
+            animation="property: position; to: -56 -43 -5; dur: 36000; easing: linear;"></a-entity>
+
+        <a-entity gltf-model="#policia" position="-130 -44 -120" scale="1 1 1" rotation="0 90 0"
+            animation="property: position; to: -60 -44 -120; dur: 25000; easing: linear;"></a-entity>
+
+        <a-entity gltf-model="#heli" position="-80 80 -120"
+            animation="property:rotation; to: -40 80 60; loop: true; dur: 10000; easing: linear">
+            <a-entity gltf-model="#heli" position="-80 90 -120"
+                animation="property:rotation; to: 20 86 30; loop: true; dur: 6000; easing: linear"></a-entity>
+        </a-entity>
+        <a-entity gltf-model="#ciclista" scale="0.5 0.5 0.5" position="-65 -43 -5" rotation="0 90 0"
+            animation="property: position; to: -65 -43 -80; dur: 36000; easing: linear;"></a-entity>
+
+        <a-entity gltf-model="#aviao" position="-190 100 -230" scale="12 12 12" rotation="0 90 0"
+            animation="property: position; to: 110 100 -230; loop: true; dur: 10000; easing: linear;"></a-entity>
+
+        <a-camera position="-100 -35 -10"></a-camera>
+
+
+
+        <a-sky src="background.jpg" rotation="180 0 0" visible=""></a-sky>
+
+        
+    </a-scene>
+</body>
+
+</html>
